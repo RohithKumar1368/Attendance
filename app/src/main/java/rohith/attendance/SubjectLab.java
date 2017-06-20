@@ -11,7 +11,7 @@ import java.util.UUID;
 
 public class SubjectLab {
 
-    private ArrayList<Subject> subjects ;
+    private ArrayList<Subject> subjects = new ArrayList<>() ;
 
     // This will be the sole instance of this class ; No other instances are allowed
     private static SubjectLab subjectLab ;
